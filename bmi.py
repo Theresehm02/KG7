@@ -8,4 +8,10 @@ patients = pd.DataFrame({
     "heartrate": [72, 88, 105, 64, 112, 79] 
 })
 
-bmi = "weight_kg"/"height(m)^2"
+bmi = (patients[patients["weight_kg"]]/patients[patients["height(m)"]]^2)
+high_hr = patients[patients["heartrate] > 100"]]
+
+print(bmi)
+
+print(high_hr)
+
