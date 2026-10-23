@@ -6,3 +6,4 @@ patients = pd.DataFrame({
     "weight_kg": [68, 72, 85, 54, 91] 
 })
 
+bmi = "weight_kg"/"height(m)^2"
